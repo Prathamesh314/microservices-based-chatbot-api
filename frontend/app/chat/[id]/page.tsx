@@ -1,4 +1,4 @@
-import { ChatLayout } from '@/components/chat/chat-layout'
+import { ChatLayout } from '@/components/chat/chat-client'
 import { getAuthStatus } from '@/lib/get-current-user'
 import { UserType } from '@/lib/types'
 import { redirect } from 'next/navigation'
@@ -17,18 +17,18 @@ export default async function ChatPage({ params }: { params: { id: string } }) {
   return (
     <main className="flex h-[calc(100dvh)] flex-col items-center">
       <ChatLayout
-        chatId={params.id}
-        setSelectedModel={()=>{}}
-        messages={[{id:'adad',content:'asasd',role:'user'}]}
-        input={'input'}
-        handleInputChange={()=>{}}
-        handleSubmit={()=>{}}
-        isLoading={true}
-        loadingSubmit={true}
-        error={undefined}
-        stop={()=>{}}
-        navCollapsedSize={10}
-        defaultLayout={[30, 160]}
+        // chatId={params.id}
+        // setSelectedModel={()=>{}}
+        // messages={[{id:'adad',content:'asasd',role:'user'}]}
+        // input={'input'}
+        // handleInputChange={()=>{}}
+        // handleSubmit={()=>{}}
+        // isLoading={true}
+        // loadingSubmit={true}
+        // error={undefined}
+        // stop={()=>{}}
+        // navCollapsedSize={10}
+        // defaultLayout={[30, 160]}
       />
     </main>
 
